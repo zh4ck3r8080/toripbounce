@@ -16,6 +16,8 @@ if [ $? -eq 0 ]; then
 	sudo chmod +x installer.sh
 	sudo ./installer.sh
 	cd ..
+	sudo chmod +x bin/toripbounce
+	sudo chmod +x bin/stip
 	sudo cp bin/toripbounce /usr/bin/
 	sudo cp bin/stip /usr/bin/
 	sudo rm -rf kali-anonsurf
