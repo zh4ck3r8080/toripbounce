@@ -20,4 +20,4 @@ Don't forget to run **sudo stip** commands after you stop this tool.
 
 4. sudo ./installme.sh
 
-Now, you can use this tool by typing **toripbounce**.
+Now, you can use this tool by typing **toripbounce** with or without **sudo**.
