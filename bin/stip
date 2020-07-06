@@ -2,3 +2,6 @@
 
 sudo anonsurf stop
 echo "[+] All IP Bouncing Services has been Stopped !"
+printf "\n"
+printf "			               By:- "
+printf "			                  zH4ck3r8080"
