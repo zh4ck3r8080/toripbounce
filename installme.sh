@@ -18,8 +18,8 @@ if [ $? -eq 0 ]; then
 	cd ..
 	sudo chmod +x bin/toripbounce
 	sudo chmod +x bin/stip
-	sudo cp bin/toripbounce /usr/bin/
-	sudo cp bin/stip /usr/bin/
+	sudo mv bin/toripbounce /usr/bin/
+	sudo mv bin/stip /usr/bin/
 	sudo rm -rf kali-anonsurf
 
 	printf "\n"
