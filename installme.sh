@@ -1,5 +1,7 @@
 #!/bin/bash
 
+printf "			By:- "
+printf "			   zH4ck3r8080"
 ping -c 1 -q google.com >&/dev/null;
 
 if [ $? -eq 0 ]; then
