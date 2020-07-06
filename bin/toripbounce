@@ -1,16 +1,16 @@
 #!/bin/bash
 
 
-ping -c 1 -q google.com >&/dev/null;
-echo "[+] Internet Connection Established !"
-printf "\n"
 printf "						By:- "
 printf "\n"
 printf "			          		   zH4ck3r8080"
 printf "\n"
+
+ping -c 1 -q google.com >&/dev/null;
 if [ $? -eq 0 ]; then
 
-
+	echo "[+] Internet Connection Established !"
+	printf "\n"
 	sudo anonsurf start
 
 	while true
