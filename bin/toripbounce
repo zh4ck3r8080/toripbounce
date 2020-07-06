@@ -4,6 +4,9 @@
 ping -c 1 -q google.com >&/dev/null;
 echo "[+] Internet Connection Established !"
 printf "\n"
+printf "			By:- "
+printf "			   zH4ck3r8080"
+printf "\n"
 if [ $? -eq 0 ]; then
 
 
