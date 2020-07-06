@@ -5,7 +5,7 @@ This tool is based on bash script and using of anonsurf-kali.
 
 **Warning !!!**
 
-Don't forget to run sudo stip commands after you stop this tool.
+Don't forget to run **sudo stip** commands after you stop this tool.
 
 **Steps to Install**
 
