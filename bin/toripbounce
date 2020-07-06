@@ -1,0 +1,28 @@
+#!/bin/bash
+
+
+ping -c 1 -q google.com >&/dev/null;
+echo "[+] Internet Connection Established !"
+printf "\n"
+if [ $? -eq 0 ]; then
+
+
+	sudo anonsurf start
+
+	while true
+	do
+		echo "Press ctrl + C whenever you want to stop it."
+
+		printf "\n"
+		sleep 1m
+
+		sudo anonsurf change
+
+		echo "Please run sudo stip command after you stop toripbounce !!!"
+
+		sleep 5
+		sudo anonsurf myip
+	done
+else
+    echo "[-] Damn Please connnect with Internet ! :~("
+fi
