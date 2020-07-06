@@ -31,5 +31,9 @@ if [ $? -eq 0 ]; then
 	printf "\n"
 	echo "Warning Please run sudo stip command after you stop toripbounce"
 else
-    echo "[-] Please connect with Internet Connection !"
+    	printf "						By:- "
+	printf "\n"
+	printf "			   			   zH4ck3r8080"
+	printf "\n"
+    	echo "[-] Please connect with Internet Connection !"
 fi
